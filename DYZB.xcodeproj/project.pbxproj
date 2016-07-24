@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1270EB5E1D3F2ECD005E9468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB5D1D3F2ECD005E9468 /* main.m */; };
+		1268C7211D44740300A4DA1A /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C7201D44740300A4DA1A /* AdViewController.m */; };
 		1270EB611D3F2ECE005E9468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB601D3F2ECE005E9468 /* AppDelegate.m */; };
-		1270EB641D3F2ECE005E9468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB631D3F2ECE005E9468 /* ViewController.m */; };
-		1270EB671D3F2ECE005E9468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1270EB651D3F2ECE005E9468 /* Main.storyboard */; };
-		1270EB691D3F2ECE005E9468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1270EB681D3F2ECE005E9468 /* Assets.xcassets */; };
-		1270EB6C1D3F2ECE005E9468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1270EB6A1D3F2ECE005E9468 /* LaunchScreen.storyboard */; };
 		1270EB771D3F2ECF005E9468 /* DYZBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB761D3F2ECF005E9468 /* DYZBTests.m */; };
 		1270EB821D3F2ECF005E9468 /* DYZBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB811D3F2ECF005E9468 /* DYZBUITests.m */; };
+		1270EBA61D3F48E5005E9468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1270EB9D1D3F48E5005E9468 /* Assets.xcassets */; };
+		1270EBA71D3F48E5005E9468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1270EB9E1D3F48E5005E9468 /* LaunchScreen.storyboard */; };
+		1270EBA81D3F48E5005E9468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1270EBA01D3F48E5005E9468 /* Main.storyboard */; };
+		1270EBAA1D3F48E5005E9468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EBA31D3F48E5005E9468 /* main.m */; };
+		1270EBC01D3F6FFE005E9468 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EBBF1D3F6FFE005E9468 /* HomeViewController.m */; };
+		1270EBCA1D40B37F005E9468 /* dyla_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1270EBC91D40B37F005E9468 /* dyla_movie.mp4 */; };
+		129DF5071D436CA200BFA092 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129DF5061D436CA200BFA092 /* IJKMediaFramework.framework */; };
+		129DF5151D43AF8700BFA092 /* BGVideoPalyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 129DF5141D43AF8700BFA092 /* BGVideoPalyViewController.m */; };
+		7BFCD7056EB1997D3EF0AF08 /* libPods-DYZB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 397C97F6A4F6ECE0C398EEF5 /* libPods-DYZB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1268C71F1D44740300A4DA1A /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		1268C7201D44740300A4DA1A /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		1270EB591D3F2ECD005E9468 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1270EB5D1D3F2ECD005E9468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1270EB5F1D3F2ECE005E9468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1270EB601D3F2ECE005E9468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1270EB621D3F2ECE005E9468 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1270EB631D3F2ECE005E9468 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1270EB661D3F2ECE005E9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1270EB681D3F2ECE005E9468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1270EB6B1D3F2ECE005E9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1270EB6D1D3F2ECE005E9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1270EB721D3F2ECF005E9468 /* DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1270EB761D3F2ECF005E9468 /* DYZBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYZBTests.m; sourceTree = "<group>"; };
 		1270EB781D3F2ECF005E9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1270EB7D1D3F2ECF005E9468 /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1270EB811D3F2ECF005E9468 /* DYZBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYZBUITests.m; sourceTree = "<group>"; };
 		1270EB831D3F2ECF005E9468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1270EB9D1D3F48E5005E9468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1270EB9F1D3F48E5005E9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1270EBA11D3F48E5005E9468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1270EBA21D3F48E5005E9468 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1270EBA31D3F48E5005E9468 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1270EBAB1D3F4C26005E9468 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		1270EBAC1D3F4EB0005E9468 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1270EBBE1D3F6FFE005E9468 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1270EBBF1D3F6FFE005E9468 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1270EBC91D40B37F005E9468 /* dyla_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dyla_movie.mp4; sourceTree = "<group>"; };
+		129DF5061D436CA200BFA092 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		129DF5131D43AF8700BFA092 /* BGVideoPalyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGVideoPalyViewController.h; sourceTree = "<group>"; };
+		129DF5141D43AF8700BFA092 /* BGVideoPalyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGVideoPalyViewController.m; sourceTree = "<group>"; };
+		1BBC338D2BC334CA21C955AA /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYZB/Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		397C97F6A4F6ECE0C398EEF5 /* libPods-DYZB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYZB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7193CE0D067BB63E0C3003D5 /* Pods-DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYZB/Pods-DYZB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BFCD7056EB1997D3EF0AF08 /* libPods-DYZB.a in Frameworks */,
+				129DF5071D436CA200BFA092 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				1270EB751D3F2ECF005E9468 /* DYZBTests */,
 				1270EB801D3F2ECF005E9468 /* DYZBUITests */,
 				1270EB5A1D3F2ECD005E9468 /* Products */,
+				44D0544E5A72258C3561FC93 /* Pods */,
+				3C5A36779DBA8C82E456BDDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +124,8 @@
 			children = (
 				1270EB5F1D3F2ECE005E9468 /* AppDelegate.h */,
 				1270EB601D3F2ECE005E9468 /* AppDelegate.m */,
-				1270EB621D3F2ECE005E9468 /* ViewController.h */,
-				1270EB631D3F2ECE005E9468 /* ViewController.m */,
-				1270EB651D3F2ECE005E9468 /* Main.storyboard */,
-				1270EB681D3F2ECE005E9468 /* Assets.xcassets */,
-				1270EB6A1D3F2ECE005E9468 /* LaunchScreen.storyboard */,
-				1270EB6D1D3F2ECE005E9468 /* Info.plist */,
+				1270EB931D3F48E5005E9468 /* Classes */,
+				1270EB9C1D3F48E5005E9468 /* Others */,
 				1270EB5C1D3F2ECD005E9468 /* Supporting Files */,
 			);
 			path = DYZB;
@@ -140,6 +157,132 @@
 			path = DYZBUITests;
 			sourceTree = "<group>";
 		};
+		1270EB931D3F48E5005E9468 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBAF1D3F6191005E9468 /* BgPlayer */,
+				1270EBAD1D3F5F87005E9468 /* Newfuters  */,
+				1270EB941D3F48E5005E9468 /* Frameworks */,
+				1270EB961D3F48E5005E9468 /* Home */,
+				1270EB991D3F48E5005E9468 /* Login */,
+				1270EB9A1D3F48E5005E9468 /* Resource */,
+				1270EB9B1D3F48E5005E9468 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1270EB941D3F48E5005E9468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				129DF5061D436CA200BFA092 /* IJKMediaFramework.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1270EB961D3F48E5005E9468 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBBD1D3F6FDC005E9468 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1270EB991D3F48E5005E9468 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1270EB9A1D3F48E5005E9468 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBC91D40B37F005E9468 /* dyla_movie.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1270EB9B1D3F48E5005E9468 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBAB1D3F4C26005E9468 /* MacroDefinition.h */,
+				1270EBAC1D3F4EB0005E9468 /* PrefixHeader.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1270EB9C1D3F48E5005E9468 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1270EB9D1D3F48E5005E9468 /* Assets.xcassets */,
+				1270EB9E1D3F48E5005E9468 /* LaunchScreen.storyboard */,
+				1270EBA01D3F48E5005E9468 /* Main.storyboard */,
+				1270EBA21D3F48E5005E9468 /* Info.plist */,
+				1270EBA31D3F48E5005E9468 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1270EBAD1D3F5F87005E9468 /* Newfuters  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Newfuters ";
+			sourceTree = "<group>";
+		};
+		1270EBAF1D3F6191005E9468 /* BgPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBB31D3F6E91005E9468 /* Controllers */,
+				1270EBB61D3F6E91005E9468 /* Views */,
+			);
+			path = BgPlayer;
+			sourceTree = "<group>";
+		};
+		1270EBB31D3F6E91005E9468 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				129DF5131D43AF8700BFA092 /* BGVideoPalyViewController.h */,
+				129DF5141D43AF8700BFA092 /* BGVideoPalyViewController.m */,
+				1268C71F1D44740300A4DA1A /* AdViewController.h */,
+				1268C7201D44740300A4DA1A /* AdViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1270EBB61D3F6E91005E9468 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1270EBBD1D3F6FDC005E9468 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1270EBBE1D3F6FFE005E9468 /* HomeViewController.h */,
+				1270EBBF1D3F6FFE005E9468 /* HomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C5A36779DBA8C82E456BDDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				397C97F6A4F6ECE0C398EEF5 /* libPods-DYZB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D0544E5A72258C3561FC93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BBC338D2BC334CA21C955AA /* Pods-DYZB.debug.xcconfig */,
+				7193CE0D067BB63E0C3003D5 /* Pods-DYZB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1270EB861D3F2ECF005E9468 /* Build configuration list for PBXNativeTarget "DYZB" */;
 			buildPhases = (
+				2DCDDA3FE267994DE399141F /* [CP] Check Pods Manifest.lock */,
 				1270EB551D3F2ECD005E9468 /* Sources */,
 				1270EB561D3F2ECD005E9468 /* Frameworks */,
 				1270EB571D3F2ECD005E9468 /* Resources */,
+				EDB968E0164DAEB9094CE8E8 /* [CP] Embed Pods Frameworks */,
+				B32DF0A78162FA3471B7D996 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1270EB6C1D3F2ECE005E9468 /* LaunchScreen.storyboard in Resources */,
-				1270EB691D3F2ECE005E9468 /* Assets.xcassets in Resources */,
-				1270EB671D3F2ECE005E9468 /* Main.storyboard in Resources */,
+				1270EBA81D3F48E5005E9468 /* Main.storyboard in Resources */,
+				1270EBCA1D40B37F005E9468 /* dyla_movie.mp4 in Resources */,
+				1270EBA61D3F48E5005E9468 /* Assets.xcassets in Resources */,
+				1270EBA71D3F48E5005E9468 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +412,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DCDDA3FE267994DE399141F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B32DF0A78162FA3471B7D996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYZB/Pods-DYZB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB968E0164DAEB9094CE8E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1270EB551D3F2ECD005E9468 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1270EB641D3F2ECE005E9468 /* ViewController.m in Sources */,
 				1270EB611D3F2ECE005E9468 /* AppDelegate.m in Sources */,
-				1270EB5E1D3F2ECD005E9468 /* main.m in Sources */,
+				1270EBC01D3F6FFE005E9468 /* HomeViewController.m in Sources */,
+				1270EBAA1D3F48E5005E9468 /* main.m in Sources */,
+				1268C7211D44740300A4DA1A /* AdViewController.m in Sources */,
+				129DF5151D43AF8700BFA092 /* BGVideoPalyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +505,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1270EB651D3F2ECE005E9468 /* Main.storyboard */ = {
+		1270EB9E1D3F48E5005E9468 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1270EB661D3F2ECE005E9468 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1270EB6A1D3F2ECE005E9468 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1270EB6B1D3F2ECE005E9468 /* Base */,
+				1270EB9F1D3F48E5005E9468 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1270EBA01D3F48E5005E9468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1270EBA11D3F48E5005E9468 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,10 +608,22 @@
 		};
 		1270EB871D3F2ECF005E9468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBC338D2BC334CA21C955AA /* Pods-DYZB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DYZB/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYZB/Classes/Frameworks",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYZB/Classes/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DYZB/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYZB/Classes/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,10 +631,22 @@
 		};
 		1270EB881D3F2ECF005E9468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7193CE0D067BB63E0C3003D5 /* Pods-DYZB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DYZB/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYZB/Classes/Frameworks",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DYZB/Classes/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DYZB/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYZB/Classes/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +717,7 @@
 				1270EB881D3F2ECF005E9468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1270EB891D3F2ECF005E9468 /* Build configuration list for PBXNativeTarget "DYZBTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +726,7 @@
 				1270EB8B1D3F2ECF005E9468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1270EB8C1D3F2ECF005E9468 /* Build configuration list for PBXNativeTarget "DYZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +735,7 @@
 				1270EB8E1D3F2ECF005E9468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

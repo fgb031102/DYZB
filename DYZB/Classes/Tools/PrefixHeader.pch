@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  DYZB
+//
+//  Created by guibinfeng on 16/7/20.
+//  Copyright © 2016年 guibinfeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MacroDefinition.h"
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <Masonry/Masonry.h>
+#import <AVFoundation/AVFoundation.h>
+
+#endif /* PrefixHeader_pch */
