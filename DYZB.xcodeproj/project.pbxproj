@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1268C7211D44740300A4DA1A /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C7201D44740300A4DA1A /* AdViewController.m */; };
+		122EEE791D470E53007357D7 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122EEE781D470E53007357D7 /* ShareView.xib */; };
+		1268C72D1D4493A700A4DA1A /* LoadingAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C72B1D4493A700A4DA1A /* LoadingAdViewController.m */; };
+		1268C72E1D4493A700A4DA1A /* LoadingAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1268C72C1D4493A700A4DA1A /* LoadingAdViewController.xib */; };
+		1268C7321D45D80300A4DA1A /* AdContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C7301D45D80300A4DA1A /* AdContentViewController.m */; };
+		1268C7331D45D80300A4DA1A /* AdContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1268C7311D45D80300A4DA1A /* AdContentViewController.xib */; };
+		1268C7371D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C7361D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.m */; };
+		1268C73A1D461A8400A4DA1A /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268C7391D461A8400A4DA1A /* ShareView.m */; };
 		1270EB611D3F2ECE005E9468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB601D3F2ECE005E9468 /* AppDelegate.m */; };
 		1270EB771D3F2ECF005E9468 /* DYZBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB761D3F2ECF005E9468 /* DYZBTests.m */; };
 		1270EB821D3F2ECF005E9468 /* DYZBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270EB811D3F2ECF005E9468 /* DYZBUITests.m */; };
@@ -40,10 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1268C71F1D44740300A4DA1A /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
-		1268C7201D44740300A4DA1A /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		122EEE781D470E53007357D7 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
+		1268C72A1D4493A700A4DA1A /* LoadingAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingAdViewController.h; sourceTree = "<group>"; };
+		1268C72B1D4493A700A4DA1A /* LoadingAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingAdViewController.m; sourceTree = "<group>"; };
+		1268C72C1D4493A700A4DA1A /* LoadingAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingAdViewController.xib; sourceTree = "<group>"; };
+		1268C72F1D45D80300A4DA1A /* AdContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdContentViewController.h; sourceTree = "<group>"; };
+		1268C7301D45D80300A4DA1A /* AdContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdContentViewController.m; sourceTree = "<group>"; };
+		1268C7311D45D80300A4DA1A /* AdContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdContentViewController.xib; sourceTree = "<group>"; };
+		1268C7351D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BarButtonItem.h"; sourceTree = "<group>"; };
+		1268C7361D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BarButtonItem.m"; sourceTree = "<group>"; };
+		1268C7381D461A8400A4DA1A /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		1268C7391D461A8400A4DA1A /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 		1270EB591D3F2ECD005E9468 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1270EB5D1D3F2ECD005E9468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1270EB5F1D3F2ECE005E9468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1270EB601D3F2ECE005E9468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1270EB721D3F2ECF005E9468 /* DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1268C7341D460CEA00A4DA1A /* Categury */ = {
+			isa = PBXGroup;
+			children = (
+				1268C7351D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.h */,
+				1268C7361D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.m */,
+			);
+			path = Categury;
+			sourceTree = "<group>";
+		};
 		1270EB501D3F2ECD005E9468 = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +157,6 @@
 		1270EB5C1D3F2ECD005E9468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1270EB5D1D3F2ECD005E9468 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,6 +227,7 @@
 		1270EB9B1D3F48E5005E9468 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1268C7341D460CEA00A4DA1A /* Categury */,
 				1270EBAB1D3F4C26005E9468 /* MacroDefinition.h */,
 				1270EBAC1D3F4EB0005E9468 /* PrefixHeader.pch */,
 			);
@@ -244,8 +267,12 @@
 			children = (
 				129DF5131D43AF8700BFA092 /* BGVideoPalyViewController.h */,
 				129DF5141D43AF8700BFA092 /* BGVideoPalyViewController.m */,
-				1268C71F1D44740300A4DA1A /* AdViewController.h */,
-				1268C7201D44740300A4DA1A /* AdViewController.m */,
+				1268C72A1D4493A700A4DA1A /* LoadingAdViewController.h */,
+				1268C72B1D4493A700A4DA1A /* LoadingAdViewController.m */,
+				1268C72C1D4493A700A4DA1A /* LoadingAdViewController.xib */,
+				1268C72F1D45D80300A4DA1A /* AdContentViewController.h */,
+				1268C7301D45D80300A4DA1A /* AdContentViewController.m */,
+				1268C7311D45D80300A4DA1A /* AdContentViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -253,6 +280,9 @@
 		1270EBB61D3F6E91005E9468 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1268C7381D461A8400A4DA1A /* ShareView.h */,
+				1268C7391D461A8400A4DA1A /* ShareView.m */,
+				122EEE781D470E53007357D7 /* ShareView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -391,8 +421,11 @@
 			files = (
 				1270EBA81D3F48E5005E9468 /* Main.storyboard in Resources */,
 				1270EBCA1D40B37F005E9468 /* dyla_movie.mp4 in Resources */,
+				122EEE791D470E53007357D7 /* ShareView.xib in Resources */,
 				1270EBA61D3F48E5005E9468 /* Assets.xcassets in Resources */,
+				1268C72E1D4493A700A4DA1A /* LoadingAdViewController.xib in Resources */,
 				1270EBA71D3F48E5005E9468 /* LaunchScreen.storyboard in Resources */,
+				1268C7331D45D80300A4DA1A /* AdContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,10 +499,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1270EB611D3F2ECE005E9468 /* AppDelegate.m in Sources */,
+				1268C72D1D4493A700A4DA1A /* LoadingAdViewController.m in Sources */,
 				1270EBC01D3F6FFE005E9468 /* HomeViewController.m in Sources */,
+				1268C7371D46116200A4DA1A /* UIBarButtonItem+BarButtonItem.m in Sources */,
+				1268C73A1D461A8400A4DA1A /* ShareView.m in Sources */,
 				1270EBAA1D3F48E5005E9468 /* main.m in Sources */,
-				1268C7211D44740300A4DA1A /* AdViewController.m in Sources */,
 				129DF5151D43AF8700BFA092 /* BGVideoPalyViewController.m in Sources */,
+				1268C7321D45D80300A4DA1A /* AdContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

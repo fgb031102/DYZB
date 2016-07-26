@@ -14,11 +14,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CocoaAsyncSocket.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>LFLiveKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -49,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>NJKWebViewProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DYZB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,15 +59,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YYDispatchQueuePool.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pili-librtmp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33726A0EB7DE9E4321C391A49630FAAE</key>
+		<key>01A8206364D7C27C6FA6EDEC03653462</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>48F687CDE9990BD471D7883061F7E5D4</key>
+		<key>09260DB66657CD810870FC64368E2870</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>24B5E4BC9A7CA16B5E30F846B081DF33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,12 +97,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78F989B62213A7B5D569C4E60D3A981A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8897FACDD5888DD9F48CA3ED20DFF575</key>
+		<key>8C01A990AB16642C9E31EF1F63FFD003</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,17 +112,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B4A3E08D49931371F7247521A50EAF79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B78F6DC432548A71903E76B8782DA05A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8EBDA7E48665DFA893152FA56615B94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BED8A336C8A285C057115BB2145DAB46</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDBF972C63326C21F52DB7C5F20ACF0D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

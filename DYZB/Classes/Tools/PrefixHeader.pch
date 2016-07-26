@@ -13,5 +13,6 @@
 #import <IJKMediaFramework/IJKMediaFramework.h>
 #import <Masonry/Masonry.h>
 #import <AVFoundation/AVFoundation.h>
+#import <AFNetworking/AFNetworking.h>
 
 #endif /* PrefixHeader_pch */

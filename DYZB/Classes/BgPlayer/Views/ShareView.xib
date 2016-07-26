@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShareView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享至" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fX-OF-MhQ">
+                    <rect key="frame" x="100" y="30" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="3UJ-W0-hCE"/>
+                        <constraint firstAttribute="width" constant="120" id="lTD-pn-NEq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-Tk-h6s">
+                    <rect key="frame" x="60" y="138" width="200" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="4MF-ko-K51"/>
+                        <constraint firstAttribute="width" constant="200" id="XrA-KO-Cxt"/>
+                    </constraints>
+                    <state key="normal" title="去分享"/>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcr-HD-87i">
+                    <rect key="frame" x="138" y="78" width="44" height="44"/>
+                    <state key="normal" image="share_to_qq_44x44_"/>
+                    <state key="selected" image="share_to_qq_selected_44x44_"/>
+                    <state key="highlighted" image="share_to_qq_selected_44x44_"/>
+                    <connections>
+                        <action selector="ShareBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ng2-Si-uER"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIn-A7-uTC">
+                    <rect key="frame" x="203" y="78" width="44" height="44"/>
+                    <state key="normal" image="share_to_space_44x44_"/>
+                    <state key="selected" image="share_to_space_selected_44x44_"/>
+                    <state key="highlighted" image="share_to_space_selected_44x44_"/>
+                    <connections>
+                        <action selector="ShareBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="u7C-Er-2wc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erv-GE-oqX">
+                    <rect key="frame" x="268" y="78" width="44" height="44"/>
+                    <state key="normal" image="share_to_sina_44x44_-1"/>
+                    <state key="selected" image="share_to_sina_selected_44x44_-1"/>
+                    <state key="highlighted" image="share_to_sina_selected_44x44_-1"/>
+                    <connections>
+                        <action selector="ShareBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="scW-sb-yRc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwU-u0-PGe">
+                    <rect key="frame" x="73" y="78" width="44" height="44"/>
+                    <state key="normal" image="share_to_wechat_44x44_"/>
+                    <state key="selected" image="share_to_wechat_selected_44x44_"/>
+                    <state key="highlighted" image="share_to_wechat_selected_44x44_"/>
+                    <connections>
+                        <action selector="ShareBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="D6C-Va-gR3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDQ-94-p33">
+                    <rect key="frame" x="8" y="78" width="44" height="44"/>
+                    <state key="normal" image="share_to_timeline_44x44_"/>
+                    <state key="selected" image="share_to_timeline_selected_44x44_"/>
+                    <state key="highlighted" image="share_to_timeline_selected_44x44_"/>
+                    <connections>
+                        <action selector="ShareBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="YLG-Dv-JWh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bDQ-94-p33" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0Sv-oC-Ikv"/>
+                <constraint firstItem="Pl7-Tk-h6s" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6XX-6a-a4S"/>
+                <constraint firstItem="hcr-HD-87i" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9mS-Ih-EiG"/>
+                <constraint firstItem="kwU-u0-PGe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Djo-Zy-ne2"/>
+                <constraint firstItem="RIn-A7-uTC" firstAttribute="leading" secondItem="hcr-HD-87i" secondAttribute="trailing" constant="21" id="KWu-bA-mlX"/>
+                <constraint firstItem="kwU-u0-PGe" firstAttribute="leading" secondItem="bDQ-94-p33" secondAttribute="trailing" constant="21" id="M4s-G8-gTa"/>
+                <constraint firstItem="erv-GE-oqX" firstAttribute="leading" secondItem="RIn-A7-uTC" secondAttribute="trailing" constant="21" id="PQd-Ti-mn5"/>
+                <constraint firstItem="RIn-A7-uTC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PeV-pw-U69"/>
+                <constraint firstItem="erv-GE-oqX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SJ1-ht-8pS"/>
+                <constraint firstItem="0fX-OF-MhQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SSI-NA-Fno"/>
+                <constraint firstItem="0fX-OF-MhQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="ULm-VM-QCG"/>
+                <constraint firstItem="hcr-HD-87i" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YXA-eq-1h1"/>
+                <constraint firstItem="hcr-HD-87i" firstAttribute="leading" secondItem="kwU-u0-PGe" secondAttribute="trailing" constant="21" id="aap-54-6Cx"/>
+                <constraint firstAttribute="bottom" secondItem="Pl7-Tk-h6s" secondAttribute="bottom" constant="18" id="ml0-Ng-gZX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="friendBtn" destination="bDQ-94-p33" id="1MW-6S-Zm0"/>
+                <outlet property="qqBtn" destination="hcr-HD-87i" id="qvG-FJ-FwI"/>
+                <outlet property="sinaBtn" destination="erv-GE-oqX" id="Jzm-fx-aeg"/>
+                <outlet property="wechatBtn" destination="kwU-u0-PGe" id="wKM-Bw-vW7"/>
+                <outlet property="zoneBtn" destination="RIn-A7-uTC" id="0Nt-Pg-bpM"/>
+            </connections>
+            <point key="canvasLocation" x="596" y="791"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="share_to_qq_44x44_" width="44" height="44"/>
+        <image name="share_to_qq_selected_44x44_" width="44" height="44"/>
+        <image name="share_to_sina_44x44_-1" width="44" height="44"/>
+        <image name="share_to_sina_selected_44x44_-1" width="44" height="44"/>
+        <image name="share_to_space_44x44_" width="44" height="44"/>
+        <image name="share_to_space_selected_44x44_" width="44" height="44"/>
+        <image name="share_to_timeline_44x44_" width="44" height="44"/>
+        <image name="share_to_timeline_selected_44x44_" width="44" height="44"/>
+        <image name="share_to_wechat_44x44_" width="44" height="44"/>
+        <image name="share_to_wechat_selected_44x44_" width="44" height="44"/>
+    </resources>
+</document>

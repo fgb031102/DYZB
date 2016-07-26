@@ -14,27 +14,26 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BarrageRenderer (1.8.0)
-  - CocoaAsyncSocket (7.4.3):
-    - CocoaAsyncSocket/All (= 7.4.3)
-  - CocoaAsyncSocket/All (7.4.3):
-    - CocoaAsyncSocket/GCD
-    - CocoaAsyncSocket/RunLoop
-  - CocoaAsyncSocket/GCD (7.4.3)
-  - CocoaAsyncSocket/RunLoop (7.4.3)
-  - LFLiveKit (1.5.2):
-    - CocoaAsyncSocket (~> 7.4.1)
-    - librtmp-iOS (~> 1.1.0)
+  - BarrageRenderer (1.8.1)
+  - LFLiveKit (1.9.0):
     - LMGPUImage (~> 0.1.9)
-  - librtmp-iOS (1.1.0)
+    - pili-librtmp (~> 1.0.3)
+    - YYDispatchQueuePool
   - LMGPUImage (0.1.9)
   - Masonry (1.0.1)
-  - MBProgressHUD (0.9.2)
-  - MJExtension (3.0.10)
-  - MJRefresh (3.1.1)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - pili-librtmp (1.0.3.1)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
+  - YYDispatchQueuePool (1.0)
 
 DEPENDENCIES:
   - AFNetworking
@@ -44,21 +43,23 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJExtension
   - MJRefresh
+  - NJKWebViewProgress
   - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BarrageRenderer: f99b461b58cd34538eef10e547b8ec2f300a0e24
-  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
-  LFLiveKit: 24e1514bb127a686da54c07ba729b34f7ca96e5b
-  librtmp-iOS: bfe6a2978e01ac97160ede5d3ccde9e3c1d1ee58
+  BarrageRenderer: a5dc2c9d38028be819b64ed2b7dfa240490b378a
+  LFLiveKit: 84245619735e6790a90487e0f7194f0f195b8169
   LMGPUImage: 8e2e5d0f7065953eb7812de842db4c87d59abf09
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
-  MJRefresh: 70a47c5543b567cdaf70ead5a6e99ce820652eb9
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  pili-librtmp: 0adf2516f4b5958b3cb079a4c3d4f6a4a9f49ce9
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
 
-PODFILE CHECKSUM: 0dde526efec1502d8a1644be10e2f3e558addfb2
+PODFILE CHECKSUM: 85b7c9998a99d380a155ac2b28299529ff810898
 
 COCOAPODS: 1.0.1

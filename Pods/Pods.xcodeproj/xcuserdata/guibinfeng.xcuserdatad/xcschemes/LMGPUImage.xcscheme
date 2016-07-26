@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '78F989B62213A7B5D569C4E60D3A981A'
+               BlueprintIdentifier = 'B78F6DC432548A71903E76B8782DA05A'
                BlueprintName = 'LMGPUImage'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libLMGPUImage.a'>

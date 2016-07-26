@@ -9,6 +9,8 @@
 #ifndef MacroDefinition_h
 #define MacroDefinition_h
 
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+#define STRONGSELF typeof(weakSelf)  __strong strongSelf = weakSelf;
 
 //状态栏高度
 #define STATUS_BAR_HEIGHT 20

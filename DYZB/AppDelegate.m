@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BGPlayerViewController.h"
+#import "LoadingAdViewController.h"
 #import "BGVideoPalyViewController.h"
 
 @interface AppDelegate ()
@@ -18,9 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self downloadFile];
+    [NSThread sleepForTimeInterval:1.0f];
     self.window = [[UIWindow alloc] initWithFrame:SCREEN_RECT];
-//    self.window.rootViewController = [[BGPlayerViewController alloc] init];
-    self.window.rootViewController = [[BGVideoPalyViewController alloc] init];
+    self.window.rootViewController = [[LoadingAdViewController alloc] init];
+    //    self.window.rootViewController = [[BGVideoPalyViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -40,11 +42,31 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+//    [self downloadFile];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+- (void)downloadFile
+{
+    AFHTTPSessionManager *manger = [AFHTTPSessionManager manager];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://img1.126.net/channel6/2015/020002/2.jpg?dpi=6401136"] cachePolicy:1 timeoutInterval:6];
+    [[manger downloadTaskWithRequest:request progress:NULL destination:^NSURL *(NSURL *targetPath, NSURLResponse *response) {
+        NSString *filePath = [NSTemporaryDirectory() stringByAppendingPathComponent:response.suggestedFilename];
+        NSURL *url = [NSURL fileURLWithPath:filePath];
+        [self saveADFilePath:filePath];
+        return url;
+    } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
+        
+    }] resume];
+}
+
+- (void)saveADFilePath:(NSString *)filePath {
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    [user setObject:filePath forKey:@"filePath"];
+    [user setObject:@"https://www.google.com.hk" forKey:@"url"];
+    [user synchronize];
 }
 
 @end

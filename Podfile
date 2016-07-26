@@ -11,6 +11,6 @@ pod 'Masonry'
 pod 'MBProgressHUD'
 pod 'BarrageRenderer'
 pod 'LFLiveKit'
-
+pod 'NJKWebViewProgress'
 
 end
