@@ -18,6 +18,7 @@
 @property (nonatomic,strong) NJKWebViewProgress * progress;
 @property (nonatomic,assign) BOOL shareViewIsShow;
 @property (nonatomic,weak) ShareView *shareView;
+@property (weak, nonatomic) IBOutlet UIImageView *loadingImageView;
 
 @end
 
@@ -82,8 +83,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
+/*
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    self.loadingImageView.frame = SCREEN_RECT;
+}
+*/
 #pragma mark - Pravite
 - (void)initDataAndView{
     self.progressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 62, SCREEN_WIDTH, 1)];
@@ -120,24 +125,38 @@
     }
 }
 
-#pragma mark Delegete
+- (void)loadingAnimation {
+    NSMutableArray *animateArray = [[NSMutableArray alloc]initWithCapacity:2];
+    [animateArray addObject:[UIImage imageNamed:@"dyla_img_loading_1_151x232_"]];
+    [animateArray addObject:[UIImage imageNamed:@"dyla_img_loading_2_151x232_"]];
+    self.loadingImageView.animationImages = animateArray;
+    self.loadingImageView.animationDuration = 0.5f;
+    self.loadingImageView.animationRepeatCount = 0;
+    self.loadingImageView.contentMode = UIViewContentModeCenter;
+    [self.loadingImageView startAnimating];
+}
 
+#pragma mark Delegete
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
+    self.loadingImageView.hidden = NO;
+    [self loadingAnimation];
     return YES;
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView{
-
+    [self loadingAnimation];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [self loadingAnimation];
     self.navigationItem.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
     [self.progressView setProgress:1.0 animated:YES];
     WEAKSELF;
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         STRONGSELF;
         strongSelf.progressView.hidden = YES;
     });
+    self.loadingImageView.hidden = YES;
 }
 
 - (void)webViewProgress:(NJKWebViewProgress *)webViewProgress updateProgress:(float)progress{
