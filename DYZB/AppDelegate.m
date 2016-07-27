@@ -21,8 +21,13 @@
     [self downloadFile];
     [NSThread sleepForTimeInterval:1.0f];
     self.window = [[UIWindow alloc] initWithFrame:SCREEN_RECT];
+    NSString *className = arc4random_uniform(10) % 2 ? @"LoadingAdViewController" : @"BGVideoPalyViewController";
+    Class class = NSClassFromString(className);
+    self.window.rootViewController = [[class alloc] init];
+    /*
     self.window.rootViewController = [[LoadingAdViewController alloc] init];
-    //    self.window.rootViewController = [[BGVideoPalyViewController alloc] init];
+    self.window.rootViewController = [[BGVideoPalyViewController alloc] init];
+     */
     [self.window makeKeyAndVisible];
     return YES;
 }
